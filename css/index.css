@@ -1,0 +1,35 @@
+body {
+	background-color: #EEE;
+	padding: 10px;
+  color: #000;
+}
+
+.container {
+	margin: 5px;
+	border: 2px dotted #FFA500;
+	width: 400px;
+	min-height: 200px;
+  text-align: justify;
+  padding: 5px;
+}
+
+#container-to-blur {
+}
+
+#blur-shape {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background: #ADD8E6;
+	border: 0;
+	opacity: 0.75;
+	top: 50px;
+	left: 125px;
+	z-index: 995;
+	position: absolute;
+}
+
+.blur {
+	color: transparent;
+	text-shadow: 0 0 8px #000;
+}
